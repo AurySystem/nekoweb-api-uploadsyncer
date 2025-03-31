@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "node-fetch": "^3.3.2"
+  },
+  "scripts":{
+    "run": "node index.js",
+    "setup": "node setup.js"
   }
 }
