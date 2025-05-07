@@ -6,8 +6,8 @@ let sources = "b";
 let cache = "d";
 
 let temp = `const auth = "${auth}"; // your api token here
-const source = "${sources}"; // source folder for incoming .mds
-const cacheSources = "${cache}"; // cache for comparing on startup
+const source = "${sources}"; // source folder for incoming .mds and the current template html and css
+const cacheSources = "${cache}"; // cache for comparing .mds on startup and the template
 
 module.exports = {
   auth,
@@ -31,8 +31,8 @@ const readline = require('readline').createInterface({
         console.log(`Finalizing`);
         cache = en;
 temp = `const auth = "${auth}"; // your api token here
-const source = "${sources}"; // source folder for incoming .mds
-const cacheSources = "${cache}"; // cache for comparing on startup
+const source = "${sources}"; // source folder for incoming .mds and the current template html and css
+const cacheSources = "${cache}"; // cache for comparing .mds on startup and the template
 
 module.exports = {
   auth,
