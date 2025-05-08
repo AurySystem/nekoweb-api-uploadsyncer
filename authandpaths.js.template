@@ -1,9 +1,0 @@
-const auth = " apikey "; // your api token here
-const source = "./production/"; // source folder for incoming .mds and the current template html and css
-const cacheSources = "./.production/"; // cache for comparing .mds on startup and the template
-
-module.exports = {
-  auth,
-  source,
-  cacheSources
-};
